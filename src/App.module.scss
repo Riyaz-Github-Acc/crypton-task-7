@@ -22,3 +22,27 @@
     width: 90%;
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    .title {
+      margin-bottom: 30px;
+    }
+
+    .list {
+      gap: 20px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    .title {
+      margin-bottom: 25px;
+    }
+
+    .list {
+      gap: 15px;
+    }
+  }
+}
